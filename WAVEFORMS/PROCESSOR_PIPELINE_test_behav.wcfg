@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="PROCESSOR_PIPELINE_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="PROCESSOR_PIPELINE_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1149963750fs"></ZoomStartTime>
+      <ZoomEndTime time="1150094251fs"></ZoomEndTime>
+      <Cursor1Time time="1150072500fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="209"></NameColumnWidth>
+      <ValueColumnWidth column_width="137"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/PROCESSOR_PIPELINE_test/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_test/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_test/uut/DATAPATH/IFID_InstrD_Register/DataOut" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">DataOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataOut[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="label">DataOut[31:0]-INSTRUCTION</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_test/uut/DATAPATH/instance_if/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_test/uut/CONTROL/HAZARD_DETECTION_UNIT/PC_LdEn" type="logic">
+      <obj_property name="ElementShortName">PC_LdEn</obj_property>
+      <obj_property name="ObjectShortName">PC_LdEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_test/uut/CONTROL/Main_Contr/RF_WrEn" type="logic">
+      <obj_property name="ElementShortName">RF_WrEn</obj_property>
+      <obj_property name="ObjectShortName">RF_WrEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_test/uut/DATAPATH/instance_dec/RF_inst/Awr" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Awr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Awr[4:0]</obj_property>
+      <obj_property name="label">Awr[4:0]-RF_ADDRESS_WRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_test/uut/DATAPATH/instance_dec/RF_WrData" type="array">
+      <obj_property name="ElementShortName">RF_WrData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_WrData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_test/uut/CONTROL/ALU_func" type="array">
+      <obj_property name="ElementShortName">ALU_func[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_func[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_test/uut/CONTROL/ALU_zero_EXMEM" type="logic">
+      <obj_property name="ElementShortName">ALU_zero_EXMEM</obj_property>
+      <obj_property name="ObjectShortName">ALU_zero_EXMEM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_test/uut/DATAPATH/MEMSTAGE_inst/MM_WrEn" type="logic">
+      <obj_property name="ElementShortName">MM_WrEn</obj_property>
+      <obj_property name="ObjectShortName">MM_WrEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_test/uut/DATAPATH/MEMSTAGE_inst/MM_RdData" type="array">
+      <obj_property name="ElementShortName">MM_RdData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MM_RdData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_test/uut/DATAPATH/MEMSTAGE_inst/MM_Addr" type="array">
+      <obj_property name="ElementShortName">MM_Addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MM_Addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_test/uut/DATAPATH/MEMSTAGE_inst/MM_WrData" type="array">
+      <obj_property name="ElementShortName">MM_WrData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MM_WrData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_test/uut/DATAPATH/instance_dec/RF_inst/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[0:31][31:0]</obj_property>
+   </wvobject>
+</wave_config>
